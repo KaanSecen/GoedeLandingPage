@@ -1,0 +1,24 @@
+img{
+    width: 100%;
+}
+
+h1{
+    font-family: sans-serif;
+    color: rgb(230, 0, 255);
+}
+
+li{
+    font-family: sans-serif;
+}
+
+p{
+    font-family: sans-serif;
+}
+
+a{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: lightgreen;
+}
