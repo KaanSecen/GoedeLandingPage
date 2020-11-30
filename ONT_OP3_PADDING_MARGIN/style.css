@@ -12,17 +12,19 @@ body {
     margin: 0 auto;
     min-height: 1220px;
     background-image: url('/Images/background-1.jpg');
+    background-repeat: no-repeat;
     color: white;
     padding-top: 155px;
 }
 
 .beatle{
-    background-color: rgb(255, 0, 0, 0.8);
+    /*background-color: rgb(255, 0, 0, 0.8); */
     width: 200px;
 }
 
 .beatle .naam{
-    /* opacity: 0; */
+    opacity: 0;
+    text-shadow: 0 0 3px black;
 }
 
 .beatle:hover .naam{
@@ -42,11 +44,35 @@ body {
     margin-top: -465px;
     padding-top: 400px;
     padding-left: 15px;
+    padding-right: 245px;
     padding-bottom: 5px;
 }
 
+#ringo{
+    margin-top: 20px;
+    margin-left: 120px;
+    padding-top: 5px;
+    padding-left: 265px;
+    padding-bottom: 405px;
+}
 #john .naam{
-    padding-left: 90px;
+    margin-left: 90px;
+}
+
+#ringo .naam{
+    margin-left: 90px;
+}
+
+
+
+#george{
+    margin-left: 610px;
+    margin-top: -465px;
+    padding-top: 5px;
+    padding-bottom: 400px;
+    padding-right: 245px;
+    padding-left: 15px;
+
 }
 
 h3, p{
