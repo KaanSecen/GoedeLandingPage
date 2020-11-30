@@ -11,7 +11,7 @@ body {
     width: 1220px;
     margin: 0 auto;
     min-height: 1220px;
-    background-image: url('/Images/background-1.jpg');
+    background-image: url('background-1.jpg');
     background-repeat: no-repeat;
     color: white;
     padding-top: 155px;
