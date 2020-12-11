@@ -1,10 +1,36 @@
-img{
-    width: 100%;
+html,body{
+    margin: 0;
+    padding: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
+nav{
+    background-color: pink;
+    height: 39px;
+}
+nav a{
+    display: block;
+    color: purple;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    float: left;
+}
+
+nav a:hover{
+    background-color: lime;
+}
 h1{
+    clear: both;
     font-family: sans-serif;
     color: rgb(230, 0, 255);
+    background-color: darkgreen;
+    margin: 0px;
+    padding: 30px;
 }
 
 li{
@@ -21,4 +47,14 @@ a{
 
 body{
     background-color: lightgreen;
+}
+
+footer{
+    background-color: purple;
+    color: pink;
+    padding: 10px, 30px;
+}
+
+section{
+    /* background-color: white; */
 }
